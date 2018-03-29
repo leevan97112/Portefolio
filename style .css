@@ -1,0 +1,326 @@
+body{
+	background-color: #79C8FA;
+}
+.header{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: stretch;
+}
+.socialLink{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #3C00BE;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.leevanPic{
+  width: 40vw;
+  height: 20vw;
+}
+.imgleevan{
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	background-color: #79C8FA;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;	
+ 	color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.pictureOrdi{
+	width: 20vw;
+	height: 10vw;
+}
+.text{
+	
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.titleOption{
+	color: #fff28e;
+	font-family: 'Kaushan Script', cursive;
+	 
+}
+.numax{
+	color: #fff28e;
+  font-family: 'Kaushan Script', cursive;
+  border-radius: 25%;
+}
+.fond{
+	
+	height: auto;	
+  background-color: white;	
+  padding-top: 10px;
+	
+}
+.Fond{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-bottom: 20px;
+	
+}
+.w3-container{
+	
+	padding-bottom: 20px;
+  background-color: #79C8FA;
+  padding-top: 10px;
+
+}
+.title{
+
+  color:#3C00BE ;
+  font-family: 'Kaushan Script', cursive;
+}
+.textP{
+  color: white;
+ font-family: 'Gloria Hallelujah', cursive;
+}
+.minidesc{
+  color: white;
+font-size: 20px}
+.style_prevu_kit
+{
+
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border:2px solid #fff28e;
+    opacity: 0.2;
+    border-radius: 100%;
+    width:110px;
+    height:110px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit:hover
+{
+	opacity: 1;
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+.textpresent{
+  color:#3C00BE; 
+  font-size: 30px;
+  align-content: center;
+  margin-top: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+.picturels{
+	padding-bottom: 40px;
+}
+
+.TextPresent{
+	display: flex;
+	justify-content: space-around;
+		flex-direction: row;
+	background-color:#79C8FA;
+}
+.photoleevan{
+	width: 325px;
+  height: 325px;
+  margin-top: 4.5vw;
+  border-radius: 100%;
+  
+}
+.leevanS{
+	width: 250px;
+	height:350px;
+}
+.features{
+	font-family: 'Dancing Script', cursive;
+	color: #3C00BE ;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color:#79C8FA;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.pourcentage{
+	background-color: #3C00BE;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer{
+  color:#fff28e; 
+  background-color: #3C00BE;	
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+}
+.footer b{
+  
+  font-family: 'Kaushan Script', cursive;
+}
+.copyright{
+  color: darkgray;
+  font-size: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.leevan{
+	display: flex;
+	justify-content: center;	
+	flex-direction: column;
+    align-items: center;      	
+	background:url(./images/essais1.jpg) repeat 0 0;	
+  width: auto;
+  margin: 0;  
+  height: 10%;
+  padding-top: 2%;
+  box-sizing: border-box;
+  -webkit-animation: slide 10s linear infinite;
+
+}@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+};	
+	
+
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+
+
+@-webkit-keyframes flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@keyframes flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@media  screen and (max-width: 640px) {
+
+  .TextPresent{
+    display:flex;
+    flex-direction:column ;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .features{
+    flex-direction: column;
+  }
+  .Fond{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+}
+@media all and (min-width: 640px) and (max-width: 1024px){
+  .Fond{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.TextPresent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.features{
+  justify-content: center;
+  flex-direction: column;
+}
+}
